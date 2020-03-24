@@ -24,7 +24,6 @@ Subscrip
 ```gql
 subscription test {
   testSub {
-    now
     text
   }
 }
@@ -35,7 +34,7 @@ Query
 ```gql
 query test {
   test {
-    now
+    text
   }
 }
 ```
