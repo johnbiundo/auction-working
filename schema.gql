@@ -1,0 +1,15 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Codename {
+  text: String!
+}
+
+type Query {
+  test: Codename!
+}
+
+type Subscription {
+  testSub: Codename!
+}
